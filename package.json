@@ -1,6 +1,6 @@
 {
   "name": "quicktoggle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A plugin that can quickly toggle your plugins and themes",
   "engines": {
     "node": ">=14.0.0"
