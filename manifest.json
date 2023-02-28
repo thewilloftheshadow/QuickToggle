@@ -7,7 +7,7 @@
     "discordID": "439223656200273932",
     "github": "thewilloftheshadow"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updater": {
     "type": "github",
     "id": "thewilloftheshadow/quicktoggle"
