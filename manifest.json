@@ -1,0 +1,18 @@
+{
+  "id": "dev.shadow.quicktoggle",
+  "name": "QuickToggle",
+  "description": "A plugin that can quickly toggle your plugins and themes",
+  "author": {
+    "name": "Shadow",
+    "discordID": "439223656200273932",
+    "github": "thewilloftheshadow"
+  },
+  "version": "1.0.0",
+  "updater": {
+    "type": "github",
+    "id": "thewilloftheshadow/quicktoggle"
+  },
+  "license": "MIT",
+  "type": "replugged-plugin",
+  "renderer": "src/index.ts"
+}
