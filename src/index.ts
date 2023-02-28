@@ -38,11 +38,12 @@ export function start(): void {
             const { name } = plugin[1].manifest;
             if (disabled.includes(plugin[0])) continue;
             if (plugin[0] === "dev.shadow.quicktoggle") continue;
-            plugins.stop(id).catch(() => {
-              logger.log(`${name} is already stopped`);
+            await plugins.stop(id).catch(() => {
+              logger.log(`${name} is already stopped or failed to stop`);
             });
             console.log(`${name} is stopped`);
           }
+          pluginsDisabled = true;
         }
     }
     isRunning = false;
