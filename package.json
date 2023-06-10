@@ -1,9 +1,9 @@
 {
   "name": "quicktoggle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A plugin that can quickly toggle your plugins and themes",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16.16.0"
   },
   "scripts": {
     "build": "replugged build plugin",
@@ -18,8 +18,8 @@
     "lint:fix": "pnpm run prettier:fix && pnpm run eslint:fix"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Shadow",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.2",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
@@ -29,7 +29,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-react": "^7.31.10",
     "prettier": "^2.8.1",
-    "replugged": "4.0.0-beta0.26",
+    "replugged": "4.3.1",
     "typescript": "^4.8.4"
   }
 }

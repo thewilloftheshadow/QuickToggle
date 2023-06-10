@@ -7,10 +7,10 @@
     "discordID": "439223656200273932",
     "github": "thewilloftheshadow"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "updater": {
-    "type": "github",
-    "id": "thewilloftheshadow/quicktoggle"
+    "type": "store",
+    "id": "dev.shadow.quicktoggle"
   },
   "license": "MIT",
   "type": "replugged-plugin",
